@@ -9,6 +9,8 @@ namespace GeometricFigureLib.GeometricTypes
     public class Circle : IFigure
     {
         private double _radius;
+        public double Radius => _radius;
+
         public Circle(double radius) 
         {
             if (radius <= 0)
@@ -20,7 +22,7 @@ namespace GeometricFigureLib.GeometricTypes
 
         public double GetArea()
         {
-            return Math.PI * Math.PI * _radius;
+            return Math.PI * _radius * _radius;
         }
     }
 }
