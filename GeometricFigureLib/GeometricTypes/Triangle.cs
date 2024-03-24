@@ -37,9 +37,9 @@ namespace GeometricFigureLib.GeometricTypes
             {
                 throw new ArgumentException("Сторона треугольника не может быть меньше или равна нулю.");
             }
-            if (a + b < c ||
-                b + c < a ||
-                c + a < b)
+            if (a + b <= c ||
+                b + c <= a ||
+                c + a <= b)
             {
                 throw new ArgumentException("Треугольника с такими сторонами не существует.");
             }            
