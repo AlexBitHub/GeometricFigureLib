@@ -5,7 +5,12 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometricFigureLib", "GeometricFigureLib\GeometricFigureLib.csproj", "{EC6B0928-99EC-43B3-A8FB-9CC65D86ECEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricFigureLib.Test", "GeometricFigureLib.Test\GeometricFigureLib.Test.csproj", "{67265B2C-24B6-4905-9317-E06618FC45E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometricFigureLib.Test", "GeometricFigureLib.Test\GeometricFigureLib.Test.csproj", "{67265B2C-24B6-4905-9317-E06618FC45E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FEAFEC04-E085-4F3E-8BD8-CCBE03B86316}"
+	ProjectSection(SolutionItems) = preProject
+		QueryProductCategories.sql = QueryProductCategories.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
